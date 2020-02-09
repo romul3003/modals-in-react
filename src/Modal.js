@@ -37,6 +37,7 @@ const Remodal = ({ children, close, render }) => {
 					</div>
 				</div>
 				<div
+					onClick={close}
 					style={{
 						position: 'absolute',
 						width: '100%',
